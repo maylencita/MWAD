@@ -1,0 +1,34 @@
+{
+  "name": "express-testin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/express-handlebars": "^0.0.29",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "~4.0.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "^0.0.33",
+    "@types/express": "^4.0.37",
+    "@types/morgan": "^1.7.33",
+    "@types/react": "^16.0.16",
+    "@types/react-dom": "^16.0.2",
+    "@types/whatwg-fetch": "^0.0.33",
+    "awesome-typescript-loader": "^3.2.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "scripts": {
+    "server": "webpack --config conf/webpack.js",
+    "watch": "webpack --config conf/webpack.js --watch",
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
